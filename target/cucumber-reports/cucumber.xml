@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="90.190073">
+<testcase classname="New dashboard changes" name="New dashboard feature without tile" time="54.256342">
+<system-out><![CDATA[Given I Launch the application..............................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Allow button in Permission popup in Login Page................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I enter a user email which has not been onboarded......................passed
+Then I enter Valid Password for that user...................................passed
+Then I Tap on Login button in Login Page....................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Allow popup...................................................passed
+Then I verify if user has navigated to the homescreen.......................passed
+Then I verify if an empty homescreen is displayed...........................passed
+Then I Tap on Hamburger menu................................................passed
+Then I Tap on logout option in settings screen..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="New dashboard changes" name="New dashboard with tile" time="35.933731">
+<system-out><![CDATA[Then I enter Valid Email in Login Page......................................passed
+Then I enter Valid Password in Login Page...................................passed
+Then I Tap on Login button in Login Page....................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify if home screen is displayed...................................passed
+Then I verify if already onboarded tile is displayed in home screen.........passed
+Then I Tap on Marine tile in home screen....................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Hamburger menu................................................passed
+Then I Tap on Home option...................................................passed
+Then I Tap on logout option in settings screen..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
